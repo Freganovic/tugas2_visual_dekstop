@@ -1,0 +1,75 @@
+object Form1: TForm1
+  Left = -6
+  Height = 1024
+  Top = 4
+  Width = 887
+  Caption = 'Form1'
+  ClientHeight = 1024
+  ClientWidth = 887
+  DesignTimePPI = 144
+  LCLVersion = '2.2.6.0'
+  object Label1: TLabel
+    Left = 128
+    Height = 25
+    Top = 192
+    Width = 13
+    Caption = 'N'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 216
+    Height = 33
+    Top = 192
+    Width = 296
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 584
+    Height = 38
+    Top = 184
+    Width = 113
+    Caption = 'Hitung'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object GroupBox1: TGroupBox
+    Left = 96
+    Height = 376
+    Top = 304
+    Width = 728
+    Caption = 'Hasil'
+    ClientHeight = 346
+    ClientWidth = 724
+    TabOrder = 2
+    object Label2: TLabel
+      Left = 80
+      Height = 25
+      Top = 72
+      Width = 66
+      Caption = 'Faktorial'
+      ParentColor = False
+    end
+    object Edit2: TEdit
+      Left = 240
+      Height = 33
+      Top = 64
+      Width = 120
+      TabOrder = 0
+    end
+    object Label3: TLabel
+      Left = 88
+      Height = 25
+      Top = 176
+      Width = 55
+      Caption = 'Jumlah'
+      ParentColor = False
+    end
+    object Edit3: TEdit
+      Left = 240
+      Height = 33
+      Top = 176
+      Width = 120
+      TabOrder = 1
+    end
+  end
+end
